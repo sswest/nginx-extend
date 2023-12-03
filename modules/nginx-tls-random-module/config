@@ -1,0 +1,8 @@
+# vim: set ft=sh et:
+ngx_addon_name=ngx_tls_random_module
+
+ngx_module_type=HTTP
+ngx_module_name="$ngx_addon_name"
+ngx_module_srcs="$ngx_addon_dir/nginx_tls_random_module.c"
+
+. auto/module

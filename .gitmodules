@@ -1,3 +1,4 @@
 [submodule "nginx"]
 	path = nginx
 	url = git@github.com:nginx/nginx.git
+	branch = stable-1.24
